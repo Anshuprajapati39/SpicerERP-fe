@@ -10,7 +10,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "/api/auth/login",
+        "https://spicererp-be-rdp6.onrender.com/api/auth/login",
         {
           username,
           password
