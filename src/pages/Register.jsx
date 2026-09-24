@@ -11,7 +11,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://spicererp-be-rdp6.onrender.com/api/auth/register",
         {
           username,
           email,
